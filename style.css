@@ -1,0 +1,12 @@
+.nav{
+    text-align: center;
+    float: center;
+}
+.nav-button{
+    display: inline;
+    padding: 1%;
+}
+
+.welcome-header{
+    color:green;
+}
