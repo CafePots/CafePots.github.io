@@ -44,6 +44,16 @@ a.nav:hover{
 .nav-button:hover{
     background-color: #d3e0cd7e;
 }
+div{
+    opacity: 0;
+    transition: opacity 2s ease;
+    animation: fadeIn 2s ease;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
 div.text-content{
     background-color: #d3e0cd46;
     width:calc(45%);
@@ -131,6 +141,12 @@ hr.hr-center{
     border-radius: 50%;
 }
 .content{
+    color:rgb(205, 233, 217);
+    background-color: #d3e0cd46;
+}
+.content-right{
+    width:fit-content;
+    float:right;
     color:rgb(205, 233, 217);
     background-color: #d3e0cd46;
 }
