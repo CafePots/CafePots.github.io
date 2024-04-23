@@ -1,12 +1,28 @@
+.main{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-color: #0c291d;
+    background-size: cover;
+    color:rgb(205, 233, 217);
+}
+
+a.nav{
+    color:rgb(205, 233, 217);
+}
+a.nav:hover{
+    color: rgb(170, 216, 170);
+}
 .nav{
     text-align: center;
     float: center;
 }
 .nav-button{
     display: inline;
-    padding: 1%;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10%;
 }
 
 .welcome-header{
-    color:green;
+    color:rgb(170, 216, 170);
 }
