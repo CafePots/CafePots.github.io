@@ -1,7 +1,11 @@
 .main{
     background-image: url(images/bg.jpg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    height: 100%;
     background-repeat: no-repeat;
-    background-color: #0c291d;
+    background-position: center;
+    background-color: #313a2d;
     background-size: cover;
     color:rgb(205, 233, 217);
 }
