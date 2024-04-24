@@ -102,26 +102,24 @@ div.art-content-container{
     div.othr-content-left{
         background-color: #d3e0cd46;
         width:calc(90%);
-        display:block;
-        padding: 1%;
-        margin-top: calc(3%);
+        float: center;
+        padding: calc(2%);
         margin:auto;
     }
     div.text-content-right{
         background-color: #d3e0cd46;
         width:calc(90%);
-        float: center;
         margin: auto;
-        margin-top: calc(1%);
+        margin-top: calc(3%);
         margin:auto;
-        float: center;
+        float:center;
     }
     .profile-pic-container{
-        width: calc(60%);
-        display: block;
+        width: calc(70%);
+        float:center;
+        margin: auto;
     }
     .profile-pic{
-        width: calc(70%);
         border-radius: 50%;
     }
     div.text-content-center{
@@ -129,6 +127,14 @@ div.art-content-container{
         width:calc(90%);
         float: center;
         margin: auto;
+    }
+    .nav{
+        text-align: center;
+        float: center;
+        font-size: xx-large;
+    }
+    p{
+        font-size: xx-large;
     }
   }
 .About-Me{
