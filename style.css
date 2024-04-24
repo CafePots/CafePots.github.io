@@ -99,25 +99,38 @@ div.art-content-container{
         margin-top: 3%;
         margin:auto;
     }
+    div.radio-content{
+        width:fit-content;
+        display: block;
+        margin: auto;
+    }
+    .rad-img{
+        width: 100%;
+    }
     div.othr-content-left{
         background-color: #d3e0cd46;
-        width:calc(90%);
-        float: center;
         padding: calc(2%);
         margin:auto;
+        width: calc(100%);
     }
     div.text-content-right{
         background-color: #d3e0cd46;
-        width:calc(90%);
+        width:calc(100%);
         margin: auto;
         margin-top: calc(3%);
         margin:auto;
-        float:center;
+        display: block;
+    }
+    .About-Me{
+        width:calc(100%);
+        display: block;
+        margin:auto;
     }
     .profile-pic-container{
-        width: calc(70%);
-        float:center;
+        margin-left:calc(75%);
+        width:calc(75%);
         margin: auto;
+        display: block;
     }
     .profile-pic{
         border-radius: 50%;
