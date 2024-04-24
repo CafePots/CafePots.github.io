@@ -91,6 +91,46 @@ div.art-content-container{
     float: center;
     margin: auto;
 }
+@media screen and (orientation: portrait) {
+    div.text-content{
+        background-color: #d3e0cd46;
+        width:calc(90%);
+        display: block;
+        margin-top: 3%;
+        margin:auto;
+    }
+    div.othr-content-left{
+        background-color: #d3e0cd46;
+        width:calc(90%);
+        display:block;
+        padding: 1%;
+        margin-top: calc(3%);
+        margin:auto;
+    }
+    div.text-content-right{
+        background-color: #d3e0cd46;
+        width:calc(90%);
+        float: center;
+        margin: auto;
+        margin-top: calc(1%);
+        margin:auto;
+        float: center;
+    }
+    .profile-pic-container{
+        width: calc(60%);
+        display: block;
+    }
+    .profile-pic{
+        width: calc(70%);
+        border-radius: 50%;
+    }
+    div.text-content-center{
+        background-color: #d3e0cd46;
+        width:calc(90%);
+        float: center;
+        margin: auto;
+    }
+  }
 .About-Me{
     display: flex;
 }
