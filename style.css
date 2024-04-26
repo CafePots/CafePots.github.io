@@ -186,6 +186,9 @@ hr.hr-center{
     margin-left: 10%;
     margin-right: 10%;
 }
+a{
+    color:rgb(170, 216, 170)
+}
 .skills{
     list-style-type: square;
 }
