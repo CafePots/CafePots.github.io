@@ -1,9 +1,17 @@
 {
-    "drawings":{
-        "1":{
-            "location":"",
-            "title":"",
-            "description":""
-        }
-    }
+  "coffee": {
+    "desc": "a",
+    "file": "images/drawings/coffee.ico.png",
+    "UploadDate": "2024-04-27"
+  },
+  "pfp": {
+    "desc": "a",
+    "file": "images/drawings/pfp.jpg",
+    "UploadDate": "2024-04-27"
+  },
+  "bg": {
+    "desc": "a",
+    "file": "images/drawings/bg.jpg",
+    "UploadDate": "2024-04-27"
+  }
 }
