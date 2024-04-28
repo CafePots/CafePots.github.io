@@ -167,6 +167,9 @@ a{
     border-radius: 10%;
     margin: 1%;
 }
+.welcome-paragragh{
+    text-align: justify;
+}
 @media screen and (orientation: portrait) {
     div.text-content{
         background-color: #d3e0cd46;
