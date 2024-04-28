@@ -263,5 +263,18 @@ a{
         font-size: x-small;
         margin: auto;
     }
-
+    center.rad-img{
+        width: 50%;
+    }
+    div.othr-content-left{
+        width: 65%;
+    }
+    .text-content-right{
+        text-align: justify;
+        float:center;
+    }
+    .radio-para{
+        text-align: left;
+        width: 70%;
+    }
   }
